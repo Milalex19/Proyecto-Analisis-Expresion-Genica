@@ -1,4 +1,4 @@
-![Logo](imagenes\Genes.png)
+![Logo](Genes.png)
 
 
 # DATA SCIENCE - Proyecto de Análisis de Expresión Génica en Cáncer mediante Aprendizaje Automático Supervisado
@@ -18,7 +18,7 @@ a. Declaración del Problema El desafío central de este proyecto es desarrollar
 El objetivo principal es desarrollar modelos de aprendizaje automático supervisado para analizar un conjunto de datos de expresión génica del cáncer. La meta es clasificar con precisión tipos de cáncer y predecir resultados clínicos.
 
 
-![Logo](imagenes\celula-cancer.png)
+![Logo](celula-cancer.png)
 
 
 ## Datasets:
@@ -91,7 +91,7 @@ macro avg:               0.96      0.91      0.93       244     |   macro avg:  
 weighted avg:            0.98      0.98      0.98       244     |   weighted avg:          0.98      0.98      0.98       244
 
 
-![Alt text](imagenes\image-2.png)
+![Alt text](image-2.png)
 
 Se observa que el rendimiento para este modelo fue bueno y no experimentó variaciones en sus resultados al cambiar las variables predictoras. Esto sugiere que el cambio en los genes predictores no afecta la eficacia de este modelo, que mantiene un rendimiento alto.
 
@@ -126,7 +126,7 @@ macro avg:               0.91      0.95      0.93       244     |   macro avg:  
 weighted avg:            0.98      0.98      0.98       244     |   weighted avg:          0.99      0.99      0.99       244
 
 
-![Alt text](imagenes\image-3.png)
+![Alt text](image-3.png)
 
 En general, ambos modelos presentan un rendimiento muy bueno, pero el segundo modelo destaca ligeramente al demostrar un mayor accuracy y recall para la clase "Solid Tissue Normal". Este segundo modelo parece ser más equilibrado y preciso, evidenciando valores más altos en todas las métricas.
 
@@ -155,7 +155,7 @@ macro avg:               0.99      0.91      0.95       244     |   macro avg:  
 weighted avg:            0.98      0.98      0.98       244     |   weighted avg:          0.99      0.99      0.99       244
 
 
-![Alt text](imagenes\image-1.png)
+![Alt text](image-1.png)
 
 
 En general, ambos modelos exhiben un rendimiento excepcional, con precisiones y recalls elevados. El segundo modelo presenta una ligera mejora en la precisión global (accuracy) y un mejor recall para la clase "Solid Tissue Normal".
@@ -186,7 +186,7 @@ accuracy:                                    0.99       244     |   accuracy:   
 macro avg:               0.95      0.97      0.96       244     |   macro avg:             0.94      0.99      0.96       244
 weighted avg:            0.99      0.99      0.99       244     |   weighted avg:          0.99      0.99      0.99       244
 
-![Alt text](imagenes\image.png)
+![Alt text](image.png)
 
 En general, ambos modelos SVM exhiben un rendimiento muy similar, con una alta precisión global y un buen equilibrio entre precisión y recall. Ambos modelos han alcanzado una accuracy del 98.77%, indicando su capacidad para clasificar correctamente la gran mayoría de las muestras.
 
